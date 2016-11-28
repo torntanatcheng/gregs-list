@@ -1,0 +1,100 @@
+body{
+	margin:0;
+}
+
+h1 {
+	position:absolute;
+	display:inline-block;
+	color:solid black;
+	margin-left: 15px;
+	font-family: "Roboto";
+	font-style: normal;
+	font-size:25px;
+}
+
+nav{
+	height:60px;
+	background-color:#F0F0F0;
+	width: 100%;
+}
+
+
+.container{
+	display: inline-block;
+	list-style: none;
+	text-align: right;
+	border-bottom: 1px #FFFFFF;
+}
+
+.nav-link{
+	margin-right: 15px;
+
+}
+
+a:link {
+	font-size: 20px;
+	font-family: "Roboto";
+	color:purple;
+	text-decoration: none;
+}
+
+input {
+	margin-top: 35px;
+	margin-left: 50px;
+	width:400px;
+	height: 20px;
+	font-size: 15px;
+}
+
+img {
+	border-radius:10px;
+}
+
+
+.pages {
+  display: inline-block; /* Tricky, this could start wrapping!  */
+  font-size: 0;
+  margin-bottom: 30px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  margin-top: 10px;
+  width: 300px;
+  height: 35px;
+  margin-left: 50px;
+}
+
+.pages-button {
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 3px;
+}
+
+.pages-display {
+  font-size: 16px;
+  padding: 0 30px;
+  padding: 8px 25px;
+  border-left: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+}
+
+.listings {
+	margin-left: 45px;
+	padding: 0;
+}
+
+.listing {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.listing-date ,
+.listing-location {
+  color: #999;
+}
+.listing-title {
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
